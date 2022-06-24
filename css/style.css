@@ -1,0 +1,109 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.logo .logo-web {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.header-link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  /* color: var(--white-color); */
+  color: grey;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+}
+
+.offer-title {
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.offer-text {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.comand-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.comand-desc {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9px;
+}
+
+.maps-link {
+  /* color: var(--white-color); */
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+
+.footer-link {
+  /* color: var(--white-color); */
+  color: grey;
+  opacity: 0.6;
+}
