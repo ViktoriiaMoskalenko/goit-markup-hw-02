@@ -119,7 +119,8 @@ body {
   line-height: 1.63;
 }
 
-.portfolio-btn:hover {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   background-color: var(--accent-color);
   color: var(--secondary-bg-color);
 }
