@@ -3,6 +3,7 @@
   --secondary-color: #757575;
   --accent-color: #2196f3;
   --white-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
 }
 
 body {
@@ -106,4 +107,32 @@ body {
   /* color: var(--white-color); */
   color: grey;
   opacity: 0.6;
+}
+
+/* PORTFOLIO CSS */
+
+.portfolio-btn {
+  background-color: var(--secondary-bg-color);
+  color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.portfolio-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-bg-color);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-text {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
