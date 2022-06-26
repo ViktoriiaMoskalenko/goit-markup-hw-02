@@ -11,6 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .logo {
@@ -36,6 +37,11 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-contact {
+  color: var(--secondary-color);
 }
 
 .header-link:hover,
@@ -47,8 +53,9 @@ body {
   /* color: var(--white-color); */
   color: grey;
   font-weight: 900;
-  font-size: 36px;
-  line-height: 1.7;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
 }
@@ -56,14 +63,18 @@ body {
 .hero-btn {
   background-color: var(--accent-color);
   color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.88;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   text-align: center;
 }
 
 .offer-title {
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .offer-text {
@@ -107,6 +118,9 @@ body {
   /* color: var(--white-color); */
   color: grey;
   opacity: 0.6;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* PORTFOLIO CSS */
